@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116925290-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-116925290-1');
+	</script>
+
+
+	<meta charset="UTF-8">
+	<meta name="description" content="And Moore Studios - Web Development, Graphic Design, Systems, and Tech solutions.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>And Moore Studios - Web Development | Graphic Design | Tech Repair | And Moore…</title>
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,900,300italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+
+	<script>
+(function(h,e,a,t,m,p) {
+m=e.createElement(a);m.async=!0;m.src=t;
+p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+})(window,document,'script','https://u.heatmap.it/log.js');
+</script>
+</head>
+<body class="landing">
+
+	<script>
+		if (localStorage.getItem('key')) {
+		// window.location.assign("http://studio3.xyz/home.html");
+			setTimeout(function() {
+				$( '#welcome-back' ).css("opacity", 1);
+			}, 800);
+			setTimeout(function() {
+				$( ".enter-button" ).fadeIn( 600 );
+			}, 1600);
+
+		} else if (!localStorage.getItem('key')) {
+			setTimeout(function() {
+				$('#welcome-back').css('display', 'none')	;
+			}, 300);
+
+			localStorage.setItem('key', 'value');
+		}
+
+	</script>
+	<!--<canvas id="canvas"></canvas>-->
+	<a href="home.html" class="crawl-link"></a>
+	<div class="white-overlay"></div>
+	<div class="landing-intro">
+
+			<div class="animation-element landing-logo-box">
+				<img src="and-more-studios-logo-2-300.png" alt="And More Studios Main Logo" class="landing-logo">
+			</div>
+			<div class="fading-list">
+				<h1 class="alt-name">Web Development</h1>
+				<h1 class="alt-name">Consultations</h1>
+				<h1 class="alt-name">Multimedia</h1>
+				<h1 class="alt-name">Marketing</h1>
+				<h1 class="alt-name">Graphics</h1>
+				<h1 class="alt-name">Support</h1>
+
+
+
+				<div class="alt-name and-more">AND MOORE<span class="grey-studios"></span></div>
+				<div class="studios">Studios</div>
+
+
+			</div>
+			<div class="landing-line-case">
+				<div class="line"></div>
+			</div>
+			<div id="welcome-back">Welcome Back!</div>
+			<div class="button-bar">
+				<a href="home.html" class="enter-button" id="enter-button">enter</a>
+			</div>
+
+	</div>
+	<div class="social-icons">
+		<ul>
+			<li><a href="http://andmoore.link/ams-facebook" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+			<li><a href="http://andmoore.link/ams-instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="http://andmoore.link/ams-twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+		</ul>
+	</div>
+	<h1 class="landing-copy" id="dynamic-copyright">&copy; And Moore Studios</h1>
+
+
+
+
+
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
